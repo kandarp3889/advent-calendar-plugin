@@ -1,0 +1,118 @@
+.box{
+    width:200px;height:170px;
+    float:left;
+    background-size:100% 100%;
+    
+    margin-bottom:30px;
+    margin-left: 5px;
+}
+
+i.editbox {
+    float: right;
+    margin-right: 24px;
+    cursor: pointer;
+    color: #FFF;
+    BACKGROUND: BLACK;
+    Margin-top:3px;
+    padding: 2px 10px;
+}
+i.editImage {
+    float: right;
+    margin-right: 24px;
+    cursor: pointer;
+    color: #FFF;
+    BACKGROUND: BLACK;
+    Margin-top:3px;
+    padding: 2px 10px;
+}
+.promopopup, .propEditImage {
+    
+    position: fixed;
+    z-index: 10000;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-left: 0;
+}
+.promobox {
+    background: #fff;
+    width: 47%;
+    margin: 0 auto;
+    margin-top: 212px;
+    
+    border-radius: 10px;
+    box-shadow: 34px 39px 255px 135px;
+}
+.promcode_header {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 25px 4px;
+}
+.content input.form-control {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 13px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+button.btn.btn-primary {
+    FONT-SIZE: 20PX;
+    BACKGROUND: BLUE;
+    COLOR: #FFF;
+    border: 1px solid;
+    width: 130px;
+    margin-bottom: 49px;
+    padding: 12px;
+    cursor: pointer;
+}
+i.promoclose {
+    color: #585353;
+    font-size: 17px;
+    float: right;
+    margin-top: -22px;
+    position: inherit;
+    font-style: normal;
+    cursor: pointer;
+
+}
+i.editbox.opendbox {
+    background-color: red;
+    padding: 2px 10px;
+}
+.tab-pane {
+    /* margin-top: 40px; */
+    border: 1px solid #ccc;
+    padding: 40px;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc!important;
+    border-radius: 4px 4px 0 0;
+}
+.main_box {
+    display: flow-root;
+}
+.promobox .content {
+    padding: 3px 19px;
+}
+.delete_msg {
+    width: 30%;
+    padding: 10px 0px 10px 10px;
+    background: #d14a4a;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+span.dashicons.dashicons-trash {
+    color: #d14a4a;
+}
+
+table.dataTable thead th, table.dataTable thead td
+{
+    padding: 10px 11px !important;
+}
